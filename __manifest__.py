@@ -27,6 +27,7 @@
         # 'views/hr_employee.xml',
         'views/sale_order.xml',
         'views/hr_expense.xml',
+        'views/product_template.xml',
 
 
     ],
