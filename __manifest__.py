@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Campos Extrasv16',
-    'version': '16.1',
+    'version': '16.2',
     'author': 'Demsa Industrial',
     'website': '',
     'license': 'LGPL-3',
