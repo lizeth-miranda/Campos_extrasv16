@@ -4,7 +4,6 @@
     'version': '16.3',
     'author': 'Demsa Industrial',
     'website': '',
-    'license': 'LGPL-3',
     'depends': ['base', 'purchase_requisition', 'account', 'stock'],
     'data': [
         # security
@@ -32,4 +31,5 @@
 
 
     ],
+    'license': 'LGPL-3',
 }
