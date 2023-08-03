@@ -12,6 +12,9 @@
             <field name="total_amount" position="after">
                 <field name="done" readonly="1" />
             </field>
+            <field name="analytic_distribution" position="after">
+                <field name="cuenta_ana" readonly="0" />
+            </field>
         </field>
     </record>
 </odoo>
