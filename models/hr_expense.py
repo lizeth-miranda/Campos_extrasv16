@@ -8,6 +8,8 @@ class acuerdo_compra(models.Model):
 
     total_amount_negative = fields.Monetary(compute="amount_negative")
     done = fields.Selection([('hecho', 'Registrado')], string='Enviado', )
+    cuenta_ana = fields.Many2one(
+        'account.analytic.account', string='Cuenta Analitica',)
 
     def amount_negative(self):
         for record in self:
@@ -20,7 +22,7 @@ class acuerdo_compra(models.Model):
             self.env['account.analytic.line'].create({
                 'date': record.date,
                 'name': record.product_id.name,
-                'account_id': record.analytic_account_id.id,
+                'account_id': record.cuenta_ana.id,
                 'amount': record.total_amount_negative,
             })
             record.done = 'hecho'
