@@ -12,7 +12,7 @@
             <field name="total_amount" position="after">
                 <field name="done" readonly="1" />
             </field>
-            <field name="analytic_distribution" position="after">
+            <field name="employee_id" position="before">
                 <field name="cuenta_ana" readonly="0" />
             </field>
         </field>
