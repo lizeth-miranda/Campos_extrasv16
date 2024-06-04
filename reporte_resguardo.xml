@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <report id="resguardo_template_id" string="RESGUARDO HMM" model="stock.picking"
+        report_type="qweb-pdf" name="Campos_extrasv16-main.resguardo_template" />
+
+</odoo>   
