@@ -52,10 +52,10 @@
                         <tbody class="mante_tbody">
                             <t t-foreach="o.move_line_ids_without_package" t-as="line">
                                 <tr>
-                                    <td><t t-esc="line.product_id.name"/></td>
-                                    <td><t t-esc="line.product_id.marca"/></td>
-                                    <td><t t-esc="line.product_id.modelo"/></td>
-                                    <td><t t-esc="line.product_id.num_serie"/></td>
+                                    <td class="text-center"><t t-esc="line.product_id.name"/></td>
+                                    <td class="text-center"><t t-esc="line.product_id.marca"/></td>
+                                    <td class="text-center"><t t-esc="line.product_id.modelo"/></td>
+                                    <td class="text-center"><t t-esc="line.product_id.num_serie"/></td>
                                 </tr>
                             </t>
                         </tbody>
