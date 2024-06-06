@@ -17,6 +17,15 @@
             <field name="detailed_type" position="after">
                 <field name="Length" />
             </field>
+            <field name="product_tag_ids" position="after">
+                <field name="num_serie" />
+            </field>
+            <field name="product_tag_ids" position="after">
+                <field name="marca" />
+            </field>
+            <field name="product_tag_ids" position="after">
+                <field name="modelo" />
+            </field>
         </field>
     </record>
 </odoo>
