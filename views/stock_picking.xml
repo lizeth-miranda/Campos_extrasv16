@@ -7,8 +7,9 @@
         <field name="arch" type="xml">
             <field name="location_dest_id" position="after">
                 <field name="numero_vale" />
-                <!-- <field name="Origen_acuerdo" /> -->
             </field>
+            <field name="group_id" position="after">
+                <field name="nombre_resguardo" />
         </field>
     </record>
 
