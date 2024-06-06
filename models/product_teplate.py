@@ -18,3 +18,6 @@ class campos_extras(models.Model):
     Length = fields.Char(
         string="Length",
     )
+    num_serie = fields.Char(string="N° Serie",)
+    marca = fields.Char(string="Marca",)
+    modelo = fields.Char(string="Modelo",)
