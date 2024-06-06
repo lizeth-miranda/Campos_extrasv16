@@ -13,21 +13,6 @@
                                 <tr class="table-active">
                                     <td colspan="4" class="text-center">FORMATO DE RESGUARDO HMM</td>
                                 </tr>
-                                <tr class="table-active">
-                                    <th class="text-left">Revisión</th>
-                                    <th class="text-left">Fecha de Publicación</th>
-                                    <th class="text-left">Fecha de Próxima Revisión</th>
-                                    <th class="text-left">Código</th>
-                                </tr>
-                            </thead>
-                            <tbody class="mante_tbody">
-                                <tr>
-                                    <th class="text-left">1</th>
-                                    <th class="text-left">11/08/2021</th>
-                                    <th class="text-left">11/08/2022</th>
-                                    <th class="text-left">FO 19 RES 01</th>
-                                </tr>
-                            </tbody>
                         </table>
                     </div>
                     <table class="table table-sm o_main_table">
