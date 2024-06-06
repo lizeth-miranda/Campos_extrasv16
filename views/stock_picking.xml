@@ -10,8 +10,7 @@
             </field>
             <field name="group_id" position="after">
                 <field name="nombre_resguardo" />
+            </field>
         </field>
     </record>
-
-
 </odoo>
