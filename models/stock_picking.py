@@ -9,3 +9,5 @@ class campos_extras(models.Model):
     numero_vale = fields.Char(
         string="Número de Vale",
     )
+    nombre_resguardo = fields.Many2one(
+        'hr.employee', string='Responsable Resguardo',)
