@@ -10,8 +10,8 @@
         # data
         # demo
         # reports
-        # 'reports/report.xml',
-        # 'reports/report_stock.xml',
+        'reports/reporte_resguardo.xml',
+        'reports/resguardo.xml',
         # groups
         "groups/compra_validar_botones.xml",
         "groups/inventario_validar_botones.xml",
