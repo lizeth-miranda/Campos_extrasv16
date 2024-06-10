@@ -42,6 +42,7 @@
                             </tr>
                             <tr class="table-active">
                                 <th name="desc" class="text-center">Herramienta</th>
+                                <th name="desc" class="text-center">Cantidad</th>
                                 <th name="desc" class="text-center">Marca</th>
                                 <th name="desc" class="text-center">Modelo</th>
                                 <th name="desc" class="text-center">N° de serie</th>
@@ -53,6 +54,7 @@
                             <t t-foreach="o.move_line_ids_without_package" t-as="line">
                                 <tr>
                                     <td class="text-center"><t t-esc="line.product_id.name"/></td>
+                                    <td class="text-center"><t t-esc="line.qty_done"/></td>
                                     <td class="text-center"><t t-esc="line.product_id.marca"/></td>
                                     <td class="text-center"><t t-esc="line.product_id.modelo"/></td>
                                     <td class="text-center"><t t-esc="line.product_id.num_serie"/></td>
