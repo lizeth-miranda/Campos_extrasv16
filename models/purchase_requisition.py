@@ -14,3 +14,7 @@ class acuerdo_compra(models.Model):
         print("button clicked!!!")
         for rec in self:
             rec.state = 'almacen'
+
+    usuario = fields.Many2one(
+        'res.users', string='Usuario',
+        default=lambda self: self.env.user)
