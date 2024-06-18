@@ -12,8 +12,8 @@
                 <button name="action_done" states="open,ongoing,almacen" string="Close" type="object" class="btn-primary" />
             </button> 
 
-            <button name="413" position="replace">
-                <button name="413" type="action" string="New Quotation" class="btn-primary" context="{'default_currency_id': currency_id, 'default_user_id': user_id}"
+            <button name="979" position="replace">
+                <button name="979" type="action" string="New Quotation" class="btn-primary" context="{'default_currency_id': currency_id, 'default_user_id': user_id}"
                     attrs="{'invisible': [('state', 'not in', ('ongoing', 'almacen'))]}"/>
             </button>
 
