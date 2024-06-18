@@ -22,6 +22,10 @@
                 <field name="state" widget="statusbar" statusbar_visible="draft,in_progress,almacen,done" attrs="{'invisible': [('is_quantity_copy', '=', 'none')]}"/>
                 <!-- <field name="state_blanket_order" widget="statusbar" statusbar_visible="draft,in_progress,almacen,done,cancel" readonly="1"/> -->
             </field>
+
+            <field name="currency_id" position="after">
+                <field name="usuario" readonly="1" />
+            </field>
         </field>
     </record>
 
