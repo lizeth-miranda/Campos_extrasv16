@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Campos Extrasv16',
-    'version': '16.2',
+    'version': '16.3',
     'author': 'Demsa Industrial',
     'website': '',
     'depends': ['base', 'purchase_requisition', 'account', 'stock'],
@@ -12,6 +12,8 @@
         # reports
         'reports/reporte_resguardo.xml',
         'reports/resguardo.xml',
+        'reports/reporte_free_resguardo.xml',
+        'reports/free_resguardo.xml',
         # groups
         "groups/compra_validar_botones.xml",
         "groups/inventario_validar_botones.xml",
