@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Campos Extrasv16',
-    'version': '16.1',
+    'version': '16.2',
     'author': 'Demsa Industrial',
     'website': '',
     'depends': ['base', 'purchase_requisition', 'account', 'stock'],
@@ -27,7 +27,7 @@
         # 'views/purchase_order.xml',
         'views/stock_picking.xml',
         'views/stock_picking_type.xml',
-        "views/purchase_requisition.xml",
+        #"views/purchase_requisition.xml",
         'views/account_move.xml',
         # 'views/hr_employee.xml',
         'views/sale_order.xml',
