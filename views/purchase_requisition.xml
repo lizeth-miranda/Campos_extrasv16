@@ -6,7 +6,7 @@
         <field name="inherit_id" ref="purchase_requisition.view_purchase_requisition_form" />
         <field name="arch" type="xml">
             <button name="action_done" position="before">
-                <button name="action_almacen" states="ongoing,in_progress,open" string="Aprobado por almacen" type="object"  class="oe_highlight" />
+                <button name="action_almacen" states="open" string="Aprobado por almacen" type="object"  class="oe_highlight" />
             </button>
             <button name="action_done" position="replace">
                 <button name="action_done" states="open,ongoing,almacen" string="Close" type="object" class="btn-primary" />
