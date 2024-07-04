@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Campos Extrasv16',
-    'version': '16.3',
+    'version': '16.1',
     'author': 'Demsa Industrial',
     'website': '',
     'depends': ['base', 'purchase_requisition', 'account', 'stock'],
