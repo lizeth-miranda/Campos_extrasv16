@@ -4,10 +4,11 @@
     'version': '16.1',
     'author': 'Demsa Industrial',
     'website': '',
-    'depends': ['base', 'purchase_requisition', 'account', 'stock'],
+    'depends': ['base', 'purchase_requisition', 'account', 'stock', 'account_multipayment_general'],
     'data': [
         # security
         # data
+        'data/payment20.xml',
         # demo
         # reports
         'reports/reporte_resguardo.xml',
@@ -33,7 +34,8 @@
         'views/sale_order.xml',
         'views/hr_expense.xml',
         'views/product_template.xml',
-
+        'views/res_partner_view.xml',
+        'wizards/multi_payments_general.xml',
 
     ],
     'license': 'LGPL-3',
