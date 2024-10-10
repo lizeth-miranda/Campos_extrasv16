@@ -4,7 +4,7 @@
     'version': '16.2',
     'author': 'Demsa Industrial',
     'website': '',
-    'depends': ['base', 'purchase_requisition', 'account', 'stock', 'account_multipayment_general'],
+    'depends': ['base', 'purchase_requisition', 'account', 'stock', ], #'account_multipayment_general'
     'data': [
         # security
         # data
