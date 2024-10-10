@@ -1,11 +1,14 @@
-# -*- coding: utf-8 -*-
-# instruccion para hacer importaciones desde odoo
-from odoo import fields, models
+# Copyright 2026 Munin
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
+
+from odoo import _, api, fields, models
+
+import logging
+
+_logger = logging.getLogger(__name__)
 
 
-class campos_extras(models.Model):
-    _inherit = 'account.move'
+class AccountMove(models.Model):
+    _inherit = "account.move"
 
-    desc = fields.Char(
-        string="descripción",
-    )
+    is_multipayment_factoring = fields.Boolean(string="Aplicar Factoraje", default=False)
