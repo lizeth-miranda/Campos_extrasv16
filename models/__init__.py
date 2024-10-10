@@ -7,4 +7,7 @@ from . import sale_order
 from . import hr_expense
 from . import stock_picking_type
 from . import product_teplate
+from . import account_move
+from . import account_payment
+from . import res_partner
 #from . import hr_employee
